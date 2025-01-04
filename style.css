@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .title {
+    font-weight: 300;
+    letter-spacing: .07rem;
+    font-size: 2.4rem;
+  }
+
+  .heading {
+    font-weight: 400;
+    letter-spacing: .07rem;
+    font-size: 2rem;
+  }
+
+  a:link,
+  a:visited {
+    color: black;
+    font-weight: 300;
+    letter-spacing: .07rem;
+    font-size: 1.06rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+
+  a:hover {
+    color: rgb(148, 176, 191);
+    text-decoration: none;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    color: #333;
+    background-color: #333;
+    margin: 0.5rem 0;
+  }
+
+  ul.header-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  ul.header-links>li {
+    margin: 0 30px 0 0;
+  }
+  .content {
+    font-weight: 400;
+  font-size: 17px;
+  line-height: 1.6rem;
+  color: #555
+  }
